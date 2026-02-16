@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assingment 05</title>
+</head>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+.Navbar {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #FFFFFF;
+    color: #212529;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+.mainmenu {
+    display: flex;
+    gap: 1rem;
+}
+.apply{
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px 16px;
+}
+.secondnavbaar {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    background-color: #e5c687;
+    width: 100%;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.btn-box{
+    background-color: #154677;
+    display: inline-block;
+}
+.box {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img {
+    width: 90%;
+    height: auto;
+}
+.banner {
+    display: flex;
+    background-color: #154677;
+    color: #ffffff;
+    min-height: 750px;
+}
+.left {
+    width: 55%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    position: relative; 
+}
+.left div {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 1.1;
+}
+.accent {
+    color: #e5c687;
+}
+.right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.bg-banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.details {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 12px 24px;
+}
+.title {
+    color: #27bf56;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.dates div {
+    font-size: 34px;
+    margin-bottom: 5px;
+}
+.btn {
+    margin-top: 20px;
+    background-color: #e5c687;
+    color: #154677;
+    padding: 10px 28px;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0;
+}
+.student {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+</style>
+<body>
+    <div class="Navbar">
+        <div>Careers</div><div>Contact</div><div>Links</div><div>|</div><div>EN</div><div>Ar</div><div>|</div><div>0</div>
+    </div>
+     <div class="secondnavbaar">
+        <div class="box">
+            <img src="mbzuai-logo.png">
+        </div>
+        <div class="mainmenu">
+           <div>About</div><div>Study</div><div>Research</div><div>Innovate</div><div>Student Resources</div><div>News</div><div class="apply"><span class="btn-box"></span>Apply Now</div> 
+        </div>
+    </div>
+<section class="banner">
+    <div class="left">
+        <div>Advance Your<br><span class="accent">research career</span></div>
+    </div>
+    <div class="right">
+        <img src="banner-bg-modal.png" class="bg-banner">
+        <div class="details"><div class="title">Program Class</div>
+            <div class="dates">
+                <div>Sunday, 31 May - Friday, 26 June</div>
+                <div>2026</div></div>
+            <div class="btn">Apply Now</div>
+        </div>
+       <img src="students.png" class="student">
+    </div>
+</section>
+</body>
+</html>
