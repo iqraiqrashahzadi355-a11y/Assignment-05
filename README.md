@@ -1,14 +1,17 @@
-Assignment 05 – Hero Layout Clone
-Objective
 
-Recreate the hero page design from the provided screenshot using semantic HTML and CSS Flexbox. The goal is to match the layout, colors, spacing, and typography as closely as possible.
+📝 Assignment 05 – Hero Layout Clone
+🎯 Objective
 
-Preview
+Recreate the hero page design from the provided screenshot using semantic HTML and CSS Flexbox.
+The goal is to match the layout, colors, spacing, and typography as closely as possible.
+
+📸 PreviewL:
+![image alt](https://github.com/iqraiqrashahzadi355-a11y/Assignment-05/blob/9c346f75ac4ca9a68484a0e3069c8bb4830b6322/mohammad-bin-zayed-university-of-artificial-intelligence-banner-and-navigation-design.png)
 
 Note: This design is desktop-first. Mobile responsiveness will be handled with media queries in future lessons.
 
-Project Structure
-Assignment-05/
+📂 Project Structure
+/
 │
 ├─ index.html         # Main HTML file
 ├─ style.css          # External CSS file
@@ -18,7 +21,7 @@ Assignment-05/
 │   └─ students.png
 └─ README.md          # Project documentation
 
-Implementation Details
+✨ Implementation Details
 General
 
 Font: sans-serif
@@ -27,7 +30,7 @@ Base font size: Default for body text
 
 Centered container: Max width 1200px to prevent layout stretching
 
-Top Navbar (Light)
+🖥️ Top Navbar (Light)
 
 Background color: #ffffff
 
@@ -41,7 +44,7 @@ Horizontal separator: 1px solid #000000
 
 Right-aligned links: Careers | Contact | Links | EN | AR | 0
 
-Second Navbar (Sand)
+🟨 Second Navbar (Sand)
 
 Background color: #e5c687
 
@@ -61,7 +64,7 @@ Icon background: #154677
 
 Layout: Logo on left, menu links on right
 
-Hero Section
+🔹 Hero Section
 
 Background color: #154677
 
@@ -93,15 +96,15 @@ Background image applied behind info panel
 
 Student image at bottom fills container width
 
-Images
+🖼️ Images
 
 Banner background: object-fit: cover;
 
 Student image: object-fit: cover;
 
-Ensures intrinsic sizing and no distortion
+Maintains intrinsic sizing without distortion
 
-Key CSS Techniques Used
+⚡ Key CSS Techniques Used
 
 Flexbox for:
 
@@ -115,7 +118,7 @@ Absolute positioning for info panel within the right hero column
 
 Object-fit for images to maintain aspect ratio and cover container
 
-Notes
+📝 Notes
 
 Mobile responsiveness is not implemented yet (desktop-first design)
 
@@ -127,7 +130,7 @@ Interactive hover effects for buttons
 
 Smooth scroll for navbar links
 
-How to Run
+▶️ How to Run
 
 Clone or download the project folder
 
@@ -135,10 +138,11 @@ Open index.html in a web browser
 
 Ensure the assets/ folder is in the same directory to load images correctly
 
-References
+🔗 References
 
 MDN: CSS Flexbox
 
 MDN: Object-fit Property
 
+MDN: Intrinsic Size
 MDN: Intrinsic Size
