@@ -1,0 +1,108 @@
+# Assignment: Hero Layout Clone
+
+## Objective
+
+Recreate the given hero page design from the provided screenshot using semantic HTML and CSS Flexbox. Your goal is to match layout, colors, spacing, and typography as closely as possible.
+
+## Design Challenge Preview
+
+![Day 09 hero layout](screenshots/mohammad-bin-zayed-university-of-artificial-intelligence-banner-and-navigation-design.png)
+
+> [!NOTE]
+> Mobile-first design approach will be covered along with media queries in coming days. This desktop layout will surely break on mobile devices. Do not panic about it.
+
+## Instructions
+
+### Deliverables Details
+
+- [ ] An HTML file linked to a custom external CSS file
+- [ ] Page uses a centered container with a max width of 1200px
+
+> [!TIP]
+> The centered container is to limit the contents from stretching to preserve the layout, while the background color expands to full screen width.
+
+- [ ] Two stacked navbars (top light, bottom sand-colored)
+- [ ] Hero (banner) section split into two columns (left text, right info panel + image)
+
+> [!TIP]
+>
+> - Study how `object-fit` and `object-position` are useful with intrinsic sizing of elements.
+> - Study how to add background images using CSS. Images are already provided under `assets/` folder.
+
+- [ ] The hero (banner) background is a solid blue matching the design
+- [ ] All colors and font sizes match the specifications below
+
+> [!TIP]
+> Try creating the layout first, then defining the images and contents.
+
+## Style Specifications (Match Exactly)
+
+### Typography
+
+- Base font family: `sans-serif`
+- Primary hero heading:
+  - Font size: 80px
+  - Font weight: 100 (thin)
+  - Color: #FFFFFF
+  - Highlighted span text color: #e5c687
+
+### Top Navbar (Light)
+
+- Background color: #ffffff
+- Link color: #212529
+- Link font size: 12px
+- Link font weight: bold
+- Horizontal separators (borders): 1px solid #000000
+
+### Second Navbar (Sand)
+
+- Background color: #e5c687
+- Link font size: 15px
+- Link font weight: 400
+- Button background: #ffffff
+- Button text color: #000000
+- Button font size: 1em
+- Button icon background: #154677
+- Dark button variant:
+  - Background: #e5c687
+  - Text color: #154677
+
+### Hero Section
+
+- Background color: #154677
+- Default text color: #FFFFFF
+- Left column width: 55 of viewports width
+- Right column width: remaining viewport width size
+
+### Info Panel
+
+- Field label color: #27bf56
+- Field label font size: 18px
+- Value color: #FFFFFF
+- Value font size: 34px
+
+## Layout Notes
+
+> [!TIP]
+> To be able to give 100% height to **intrinsic** sized elements, their parent elements must have `relative` positioning.
+
+- Use flexbox to align items in navbars and the hero columns.
+- The right info panel contains two vertical sections: text + button on top, and the image at the bottom.
+- The right panel uses a background image (banner) behind the content.
+- The image fills its container width and height without distortion.
+- Study the `object-fit` property for controlling how replaced elements (like images) are resized within their containers.[^1]
+
+## References
+
+- MDN: [CSS object-fit property](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit)
+- MDN: [CSS object-position property](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) (optional further study)
+- MDN: [Intrinsic size](https://developer.mozilla.org/en-US/docs/Glossary/Intrinsic_Size)
+- MDN: [Flexbox Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+
+## Footnotes
+
+[^1]: An element's **intrinsic size** is the size it would have based purely on its content, without taking into account the effects of the layout context it appears in. This is the opposite of an element's **extrinsic size**, which is determined by external constraints such as container size. An element's intrinsic sizes are represented by its `min-content` and `max-content` sizes. The `object-fit` property becomes particularly useful when working with intrinsic-sized elements like images, allowing you to control how they scale and position within their containers.
+
+---
+
+[Back to Day 09 README](./README.md)
