@@ -5,13 +5,13 @@
 Recreate the hero page design from the provided screenshot using semantic HTML and CSS Flexbox.
 The goal is to match the layout, colors, spacing, and typography as closely as possible.
 
-📸 PreviewL:
+📸 Preview:
 ![image alt](https://github.com/iqraiqrashahzadi355-a11y/Assignment-05/blob/9c346f75ac4ca9a68484a0e3069c8bb4830b6322/mohammad-bin-zayed-university-of-artificial-intelligence-banner-and-navigation-design.png)
 
 Note: This design is desktop-first. Mobile responsiveness will be handled with media queries in future lessons.
 
 ## 📂 Project Structure
-...bash
+***bash
 │
 ├─ index.html         # Main HTML file
 ├─ style.css          # External CSS 
@@ -20,7 +20,7 @@ Note: This design is desktop-first. Mobile responsiveness will be handled with m
 │   ├─ banner-bg-modal.png
 │   └─ students.png
 └─ README.md          # Project documentation
-...
+***
 
 ##✨ Implementation Details
 General
