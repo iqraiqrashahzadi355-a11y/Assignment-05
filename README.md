@@ -14,11 +14,17 @@ Note: This design is desktop-first. Mobile responsiveness will be handled with m
 /
 │
 ├─ index.html         # Main HTML file
-├─ style.css          # External CSS file
+
+├─ style.css          # External CSS 
+
 ├─ assets/            # Folder containing all images
+
 │   ├─ mbzuai-logo.png
+
 │   ├─ banner-bg-modal.png
+
 │   └─ students.png
+
 └─ README.md          # Project documentation
 
 ✨ Implementation Details
@@ -128,7 +134,11 @@ Media queries for mobile view
 
 Interactive hover effects for buttons
 
-Smooth scroll for navbar links
+Smooth scroll for navbar links.
+
+FINNAL:
+This is what we get.....
+![image alt](https://github.com/iqraiqrashahzadi355-a11y/Assignment-05/blob/22a70efad540bf041a31a1224eb40cc36fda6e95/Screenshot%20(506).png)
 
 ▶️ How to Run
 
