@@ -1,5 +1,5 @@
 
-📝 Assignment 05 – Hero Layout Clone
+# Assignment 05 – Hero Layout Clone
 🎯 Objective
 
 Recreate the hero page design from the provided screenshot using semantic HTML and CSS Flexbox.
@@ -10,7 +10,7 @@ The goal is to match the layout, colors, spacing, and typography as closely as p
 
 Note: This design is desktop-first. Mobile responsiveness will be handled with media queries in future lessons.
 
-📂 Project Structure
+## 📂 Project Structure
 ...bash
 │
 ├─ index.html         # Main HTML file
@@ -22,7 +22,7 @@ Note: This design is desktop-first. Mobile responsiveness will be handled with m
 └─ README.md          # Project documentation
 ...
 
-✨ Implementation Details
+##✨ Implementation Details
 General
 
 Font: sans-serif
@@ -45,7 +45,7 @@ Horizontal separator: 1px solid #000000
 
 Right-aligned links: Careers | Contact | Links | EN | AR | 0
 
-🟨 Second Navbar (Sand)
+## 🟨 Second Navbar (Sand)
 
 Background color: #e5c687
 
@@ -97,7 +97,7 @@ Background image applied behind info panel
 
 Student image at bottom fills container width
 
-🖼️ Images
+## 🖼️ Images
 
 Banner background: object-fit: cover;
 
@@ -105,7 +105,7 @@ Student image: object-fit: cover;
 
 Maintains intrinsic sizing without distortion
 
-⚡ Key CSS Techniques Used
+## ⚡ Key CSS Techniques Used
 
 Flexbox for:
 
@@ -119,7 +119,7 @@ Absolute positioning for info panel within the right hero column
 
 Object-fit for images to maintain aspect ratio and cover container
 
-📝 Notes
+## 📝 Notes
 
 Mobile responsiveness is not implemented yet (desktop-first design)
 
@@ -135,7 +135,7 @@ FINNAL:
 This is what we get.....
 ![image alt](https://github.com/iqraiqrashahzadi355-a11y/Assignment-05/blob/22a70efad540bf041a31a1224eb40cc36fda6e95/Screenshot%20(506).png)
 
-▶️ How to Run
+## ▶️ How to Run
 
 Clone or download the project folder
 
@@ -143,7 +143,7 @@ Open index.html in a web browser
 
 Ensure the assets/ folder is in the same directory to load images correctly
 
-🔗 References
+##🔗 References
 
 MDN: CSS Flexbox
 
