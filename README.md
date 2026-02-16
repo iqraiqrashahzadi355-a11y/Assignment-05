@@ -11,21 +11,16 @@ The goal is to match the layout, colors, spacing, and typography as closely as p
 Note: This design is desktop-first. Mobile responsiveness will be handled with media queries in future lessons.
 
 📂 Project Structure
-/
+...bash
 │
 ├─ index.html         # Main HTML file
-
 ├─ style.css          # External CSS 
-
 ├─ assets/            # Folder containing all images
-
 │   ├─ mbzuai-logo.png
-
 │   ├─ banner-bg-modal.png
-
 │   └─ students.png
-
 └─ README.md          # Project documentation
+...
 
 ✨ Implementation Details
 General
